@@ -160,7 +160,7 @@ static NSString *const oiuserIdDeviceStampValue = @"deviceApplicationStamp";
         }
 
         NSMutableDictionary *transformedEventInfo = [baseProductAttributes transformValuesToString].mutableCopy;
-        if (revenueInCents ) {
+        if (revenueInCents) {
             [transformedEventInfo setObject:revenueInCents forKey: @"revenue"];
         }
 
